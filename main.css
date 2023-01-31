@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* tag for nav */
+
+.cont{
+    /* border:  2px solid red; */
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+nav{
+    border: 1px solid gray;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    height: 100%;
+    max-height: 78px;
+}
+.logo{
+    /* border: 2px solid red; */
+    height: 30px;
+    margin-top: 20px;
+}
+.fir{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    height: 6vh;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.kk{
+    /* border: 2px solid blue; */
+    height: 6.5vh;
+    width: 90px;
+    text-align: center;
+}
+.menu_query{
+    display: none;
+}
+.kk:hover{
+    cursor: pointer;
+    border: 3px solid rgb(243, 121, 20);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+.kk a{
+    text-decoration: none;
+    color: gray;
+}
+.kk a:hover{
+    color: rgb(243, 121, 20);
+}
+.fir p{
+    color: gray;
+}
+.fir p:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.sec{
+    /* border: 2px solid darkblue; */
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    height: 8vh;
+    margin-top: 5px;
+
+}
+.imag1{
+    width: 23px;
+    height: 27px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.imag1:hover{
+    cursor: pointer;
+}
+.dd{
+    /* border: 2px solid red; */
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.ava img{
+    width: 100%;
+    height: 100%;
+}
+.ava{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    position: relative;
+}
+.ava:hover{
+    cursor: pointer;
+    outline: 1px solid rgb(243, 121, 20);
+}
+.cat{
+    /* border: 2px solid black; */
+    width: 300px;
+    height: 25vh;
+    border-radius: 15px;
+    position: absolute;
+    top: 70px;
+    right: -45px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 15px rgba(179, 179, 179, 0.568);
+    z-index: 1;
+    background-color: white;
+    display: none;
+}
+.ava:hover .cat{
+    display: block;
+}
+
+.cat h4{
+    /* border: 2px solid red; */
+    margin: 15px 0px 0px 10px;
+}
+.ff{
+    border: 2px solid rgba(179, 179, 179, 0.568);
+    margin-top: 20px;
+    height: 16vh;
+    text-align: center;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.ff p{
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+/* end of nav */
+
+/* tag for main cart section */
+
+.m1{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 100px;
+}
+.shoe_cart{
+    margin-left: 50px;
+    width: 50%;
+}
+.poo{
+    /* border: 2px solid green; */
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+.poo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.m2{
+    display: flex;
+    margin-top: 30px;
+}
+.jj{
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    margin: 0px 20px 0px 0px;
+}
+.jj:hover{
+    cursor: pointer;
+    outline: 2px solid rgb(243, 121, 20);
+    opacity: 80%;
+}
+.jj img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.write{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 50vh;
+    margin-top: 30px;
+}
+.write h5{
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: rgb(243, 121, 20);
+}
+.write h1{
+    margin-top: 15px;
+    font-size: 40px;
+}
+.oo{
+    margin-top: 40px;
+    font-size: 15px;
+    color: gray;
+    line-height: 20px;
+}
+.ss{
+    margin-top: 25px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.ss span{
+    /* border: 2px solid red; */
+    font-size: 15px;
+    margin-left: 7px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(226, 223, 223, 0.568);
+    color: rgb(243, 121, 20);
+}
+.cc{
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+    text-decoration: line-through;
+}
+.ooo{
+    /* border: 2px solid blue; */
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.btnn{
+    margin-top: 10px;
+}
+.btnn input{
+    width: 30px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    margin-left: 20px;
+}
+.btnnn button{
+    padding: 10px 20px 10px 20px;
+    width: 200px;
+    display: flex;
+    border-radius:5px ;
+    background-color: rgb(243, 121, 20);
+    border: none;
+    margin-right: 40px;
+}
+.btnnn button:hover{
+    cursor: pointer;
+    background-color: white;
+    outline: solid 1px rgb(243, 121, 20);
+}
+.btnnn button p{
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.btnnn button:hover p{
+    color: rgb(243, 121, 20);
+}
+.btnnn button img{
+    margin-left: 15px;
+}
+/* end of main cart section */
+
+/* Home page */
+
+/*  hamburger */
+#m_logo{
+    display: none;
+}
+#check{
+    display: none;
+}
+.open-menu, .closing-menu{
+    position: absolute;
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+.open-menu{
+    top: 6.4%;
+    left: 16px;
+    transform: translateY(-50%);
+}
+.closing-menu{
+    top: 7px;
+    left: 16px;
+}
+
+/* the css for folder (Home) starts */
+/* section 1 men */
+
+.wrapper{
+    /* border: 2px solid red; */
+    width: 100%;
+    max-width: 1100px;
+    margin: 100px auto;
+}
+.cate{
+    /* border: 2px solid blue; */
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(243, 120, 20);
+    box-shadow: 0px 5px 9px rgba(132, 130, 128, 0.412);
+    position: sticky;
+    top: 0;
+}
+.cate h2{
+    font-size: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.shoes_wrapper{
+    /* border: 2px solid green; */
+    width: 900px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 45px;
+}
+.shoe{
+    /* border: 2px solid blue; */
+    width: 170px;
+    height: 150px;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+.shoe:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    box-shadow: 0px 5px 12px rgba(173, 173, 173, 0.783);
+}
+.shoe img{
+    width: 100%;
+    height: 115px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+h3{
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* footer */
+footer{
+    border: 2px solid rgba(132, 130, 128, 0.412);
+    width: 100%;
+    /* height: 150px; */
+    /* margin-left: -142px; */
+    background-color: rgba(132, 130, 128, 0.412);
+}
+.footer_cont{
+    /* border: 2px solid red; */
+    max-width: 1400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+/* .new{
+    display: block;
+} */
+.new h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+}
+.new h3{
+    font-size: 10px;
+    margin-top: 10px;
+    color: red;
+}
+.MAIL{
+    display: flex;
+    margin-top: 10px;
+}
+.text{
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+}
+.text :hover{
+    outline: 2px solid rgb(243, 120, 20);
+}
+.text input:hover{
+   outline: 2px solid rgb(243, 120, 20);
+}
+.text input{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    border: none;
+}
+.Gender{
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.Gender button{
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+}
+.Gender button:hover{
+    cursor: pointer;
+    background-color: rgb(243, 120, 20);
+    color: white;
+}
+.Gender button p{
+    font-size: 10px;
+}
+
+
+
+/* media query */
+
+/* home secrion media query starts */
+
+@media(max-width: 800px){
+    /* body{
+        overflow: hidden;
+    } */
+    .cont{
+        /* border: 2px solid green; */
+        margin: auto;
+    }
+    .logo{
+        display: block;
+        margin-left: 50px;
+        margin-top: 27px;
+    }
+    #m_logo{
+        display: none;
+        /* border: 2px solid red; */
+    }
+    .fir{
+        /* border: 2px solid red; */
+        position: absolute;
+        width: 250px;
+        height: 650px;
+        top: 1px;
+        left: -10px;
+        z-index: 1;
+        background-color: white;
+        flex-direction: column;
+        box-shadow: 0px 7px 15px black;
+    }
+    .kk{
+        display: none;
+    }
+    .menu_query{
+        display: block;
+        /* border: 2px solid red; */
+        margin-bottom: 250px;
+    }
+    .y{
+        margin: 20px 15px;
+        font-size: 20px;
+    }
+    .menu_query a{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+    .menu_query a:hover{
+        cursor: pointer;
+        color: rgb(243, 121, 20);
+    }
+    nav{
+        border-bottom: none;
+    }
+    .sec{
+        flex-direction: row;
+        margin-right: 10px;
+    }
+    .ava{
+        width: 30px;
+        height: 30px;
+        margin-top: 16px;
+    }
+    .dd{
+        /* border: 2px solid green; */
+        width: 30px;
+        height: 30px;
+    }
+    .imag1{
+        /* border: 2px solid black; */
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
+        /* margin-left: 10px; */
+    }
+    .cat{
+        /* border: 2px solid blue; */
+        top: 30px;
+        right: 15px;
+        background-color: white;
+        z-index: 1;
+        /* display: block; */
+    }
+
+    .open-menu, .closing-menu{
+        display: block;
+    }
+    #check:checked ~ .fir{
+        left: -500px;
+    }
+    /* query for the home page */
+
+    .wrapper{
+        /* border: 2px solid red; */
+        width: 300px;
+        margin: 15px auto;
+        overflow: hidden;
+    }
+    .cate{
+        width: 200px;
+        padding: 0;
+        margin-left: 50px;  
+        /* position: sticky;
+        top: 0; */
+    }
+    .cate h2{
+        font-size: 19px;
+        text-align: center;
+    }
+    .shoes_wrapper{
+        display: grid;
+        grid-template-columns: 1fr; 
+        margin-left: 15px;  
+    }
+    .shoe{
+        /* border: 2px solid blue; */
+        width: 250px;
+        height: 200px;   
+    }
+    .shoe img{
+        height: 160px;
+    }
+    .footer_cont{
+        flex-direction: column;
+    }
+    .hh23{
+        flex-direction: column;
+    }
+    .new h3{
+        font-size: 5px;
+    }
+    
+    /* home section media query ends */
+
+    /* footer */
+
+    .footer_cont{
+        /* border: 2px solid red; */
+        width: 300px;
+        margin: 20px auto;
+        align-items: center;
+    }
+    .hh23{
+        /* border: 2px solid blue; */
+        align-items: center;
+    }
+    .hh23 h2{
+        font-size: 12px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .hh23 h3{
+        margin-top: 1px;
+        font-size: 7px;
+    }
+    .MAIL{
+        flex-direction: column;
+    }
+    .text{
+        padding: 5px;
+        width: 250px;
+        height: 40px;
+    }
+    .Gender{
+        margin: 10px auto;
+    }
+    .Gender button{
+        padding: 10px 20px 10px 20px;
+    }
+
+
+}
