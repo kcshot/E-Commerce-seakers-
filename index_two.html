@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!-- tag for nav -->
-    <div class="cont">
+ <div class="cont">
         <nav>
             <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
             <div class="logo"><img src="/image/logo.svg" alt=""></div>
@@ -20,23 +19,22 @@
                 <label for="check" class="closing-menu"><i class="fas fa-times"></i></label>
                 <div  id="m_logo"><img src="/image/logo.svg" alt="logo"></div>
                 <div class="kk ko"><a href="/home.html">Collections</a></div>
-                <div class="kk kj"><a href="/home.html">Men</a></div>
-                <div class="kk kl"><a href="/home.html">Women</a></div>
-                <div class="kk le"><a href="/home.html">Children</a></div>
+                <div class="kk kj"><a href="#men">Men</a></div>
+                <div class="kk kl"><a href="#women">Women</a></div>
+                <div class="kk le"><a href="#children">Children</a></div>
                 <div class="kk oos"><a href="#">About</a></div>
                 <div class="kk st"><a href="#">Contact</a></div>
-                
+        
                 <!-- menu for media query -->
                 <div class="menu_query">
                     <div class="y"><a href="/home.html">Collections</a></div>
-                <div class="y"><a href="/men.html">Men</a></div>
-                <div class="y"><a href="/women.html">Women</a></div>
-                <div class="y"><a href="/children.html">Children</a></div>
-                <div class="y"><a href="#">About</a></div>
-                <div class="y"><a href="#">Contact</a></div>
+                    <div class="y"><a href="#">Men</a></div>
+                    <div class="y"><a href="#">Women</a></div>
+                    <div class="y"><a href="#">Children</a></div>
+                    <div class="y"><a href="#">About</a></div>
+                    <div class="y"><a href="#">Contact</a></div>
                 </div>
             </div>
-
             <div class="sec">
                 <img src="/image/icon-cart.svg" alt="cart" class="imag1">
                 <div class="ava">
@@ -48,41 +46,29 @@
                 </div>
             </div>
         </nav>
-    
         <!-- end of nav -->
 
-        <!--  tag for main cart section -->
-
-        <main>
+        <!-- cart  -->
+            <!-- Container for the image gallery -->
             <div class="m1">
-                <!-- <div class="shoe_cart">
-                    <div class="poo">
-                        <img src="/image/image-product-1.jpg" alt="shoe pix">
-                    </div>
-                 <div class="m2">
-                    <div class="jj"><img src="/image/image-product-1-thumbnail.jpg" alt="shoe pix"></div>
-                    <div class="jj"><img src="/image/image-product-2-thumbnail.jpg" alt="shoe pix"></div>
-                    <div class="jj"><img src="/image/image-product-3-thumbnail.jpg" alt="shoe pix"></div>
-                    <div class="jj"><img src="/image/image-product-4-thumbnail.jpg" alt="shoe pix"></div>
-                 </div>
-                </div> -->
+            
                 <div class="cart_1">
                     <!-- Full-width images with number text -->
                     <div class="mySlides">
                       <div class="numbertext">1 / 4</div>
-                      <div class="i_mg"><img src="/image/image-product-1.jpg" ></div>
+                      <div class="i_mg"><img src="/image/woman 1.jpg" ></div>
                     </div>
                     <div class="mySlides">
                       <div class="numbertext">2 / 4</div>
-                      <div class="i_mg"><img src="/image/image-product-2.jpg" ></div>
+                      <div class="i_mg"><img src="/image/thum 3.jpg" ></div>
                     </div>
                     <div class="mySlides">
                       <div class="numbertext">3 / 4</div>
-                      <div class="i_mg"><img src="/image/image-product-3.jpg" ></div>
+                      <div class="i_mg"><img src="/image/thum 1.jpg" ></div>
                     </div>
                     <div class="mySlides">
                       <div class="numbertext">4 / 4</div>
-                      <div class="i_mg"><img src="/image/image-product-4.jpg" ></div>
+                      <div class="i_mg"><img src="/image/thum 2.jpg" ></div>
                     </div>
                     <!-- Next and previous buttons -->
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -94,16 +80,16 @@
                     <!-- Thumbnail images -->
                     <div class="row">
                       <div class="column">
-                        <img class="demo cursor" src="/image/image-product-1-thumbnail.jpg" style="width:100%" onclick="currentSlide(1)" alt="shoe">
+                        <img class="demo cursor" src="/image/woman 1.jpg" style="width:100%" onclick="currentSlide(1)" alt="shoe">
                       </div>
                       <div class="column">
-                        <img class="demo cursor" src="/image/image-product-2-thumbnail.jpg" style="width:100%" onclick="currentSlide(2)" alt="shoe">
+                        <img class="demo cursor" src="/image/thum 3.jpg" style="width:100%" onclick="currentSlide(2)" alt="shoe">
                       </div>
                       <div class="column">
-                        <img class="demo cursor" src="/image/image-product-3-thumbnail.jpg" style="width:100%" onclick="currentSlide(3)" alt="shoe">
+                        <img class="demo cursor" src="/image/thum 1.jpg" style="width:100%" onclick="currentSlide(3)" alt="shoe">
                       </div>
                       <div class="column">
-                        <img class="demo cursor" src="/image/image-product-4-thumbnail.jpg" style="width:100%" onclick="currentSlide(4)" alt="shoe">
+                        <img class="demo cursor" src="/image/thum 2.jpg" style="width:100%" onclick="currentSlide(4)" alt="shoe">
                       </div>
                       
                     </div>
@@ -120,6 +106,7 @@
                             <p class="ss">$125.00 <span>50%</span> <div class="ne">$250</div></p>
                         </div>
                     <div class="cc"><p>$250.00</p></div>
+    
                     <div class="ooo">
                         <div class="btnn">
                             <img src="/image/icon-minus.svg" alt="icon-minus" class="minus">
@@ -137,8 +124,8 @@
                     </div>
                 </div>
             </div>
-        </main> 
     </div>
+ </div> 
 
     <footer>
         <div class="footer_cont">
@@ -160,9 +147,8 @@
             </div>
         </div>
     </footer>
-    
 
-<!-- java script link -->
+        <!-- java script link -->
     <script src="app.js"></script>
 </body>
 </html>
